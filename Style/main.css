@@ -1,0 +1,112 @@
+#body {
+    background-color: rgb(180, 255, 119);
+}
+
+#heading {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Georgia';
+    font-style: unset;
+}
+
+#btn {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    box-shadow: 0 9px #999;
+    width: 300px;
+}
+
+#twitter-btn {
+    float: left;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #55ACEE;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#twitter-btn:hover {
+    background: rgb(110, 182, 238);
+}
+
+#twitter-btn:active {
+    transform: translateY(2px);
+}
+
+#btn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn:hover span {
+    padding-right: 25px;
+}
+
+#btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#quote-board {
+    background-color: white;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#footer {
+    color: black;
+    background-color: white;
+    margin: auto;
+    word-wrap: break-word;
+    width: 200px;
+    border-radius: 2px;
+    border: 1px dotted blue;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#name {
+    color: black;
+    background-color: white;
+}
+
+.center {
+    margin: auto;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 20px;
+}
